@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Notifications</title>
+
+        <style>
+            body {
+                font-size: 16px;
+            }
+            .container {
+                width: 50%;
+                margin: auto;
+            }
+            #notification-button {
+                width: 400px;
+                height: 100px;
+
+                border: 1px solid grey;
+                border-radius: 20px;
+                background-color: #b0e0e6;
+            }
+            #notification-button > h1 {
+                padding-top: 3%;
+                font-size: 2em;
+                text-align: center;
+                font-family: sans-serif;
+                color: white;
+            }
+            input {
+                height: 75px;
+                width: 200px;
+            }
+            label {
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="container">
+
+
+            <div class="header">
+                <h1>create a notification.</h1>
+            </div>
+
+            <div class="input">
+                <form>
+                    <label>Notification Title</label>
+                    <input id="title-input" type="text" name="title" value="">
+
+                    <label>Notification Body</label>
+                    <input id="body-input" type="text" name="body" value="">
+                </form>
+            </div>
+
+            <div id="notification-button">
+                <h1>notify me</h1>
+            </div>
+
+
+        </div>
+
+<script src="./script.js"></script>
+    </body>
+
+</html>
