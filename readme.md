@@ -8,6 +8,6 @@ Input your notification title and body text to receive a permanent-until-dismiss
 
 View [Notification API](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API) Documentation
 
-### Issues
+## Issues
 * Chrome doesn't allow Notifications from any non-secure site
 * Firefox doesn't support requireInteraction and silent Notification options
