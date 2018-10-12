@@ -1,0 +1,50 @@
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.container {
+    width: 50%;
+    height: 50vh;
+    margin: auto;
+
+    margin-top: 75px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.header {
+    width: 400px;
+    border-bottom: 1px solid grey;
+
+    text-align: center;
+    font-family: sans-serif;
+}
+#notification-button {
+    width: 400px;
+    height: 100px;
+
+    border: 1px solid grey;
+    background-color: #082567;
+}
+#notification-button > p {
+    font-size: 2em;
+    text-align: center;
+    color: white;
+
+    padding-top: 3px;
+}
+form {
+    margin-top: 15px;
+}
+input {
+    display:block;
+
+    height: 50px;
+    width: 400px;
+
+    font-size: 2em;
+
+    margin-bottom: 20px;
+}
